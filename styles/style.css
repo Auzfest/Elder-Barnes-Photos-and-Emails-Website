@@ -23,17 +23,19 @@ header {
 
 }
 nav {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto;
 }
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+
     padding: 35px;
 }
 nav a:hover {
-    background-color: #D6CADD;
+    background-color: darkgray;
     color: white;
 }
 
