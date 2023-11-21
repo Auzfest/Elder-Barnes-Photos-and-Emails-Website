@@ -57,8 +57,27 @@ document.addEventListener('DOMContentLoaded', function () {
         const img = document.createElement('img');
         img.src = url;
         img.alt = url;
+
+        // Open modal on image click
+        img.addEventListener('click', function () {
+            openModal(url);
+        });
         
         photoItem.appendChild(img);
         photoGrid.appendChild(photoItem);
     });
 });
+            // Open modal function
+            function openModal(url) {
+                const modal = document.getElementById('modal');
+                const modalImage = document.getElementById('modalImage');
+                modal.style.display = 'block';
+                modalImage.src = url;
+            }
+        
+            // Close modal function
+            function closeModal() {
+                const modal = document.getElementById('modal');
+                modal.style.display = 'none';
+            }
+            
