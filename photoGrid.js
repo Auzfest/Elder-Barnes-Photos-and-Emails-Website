@@ -67,17 +67,17 @@ document.addEventListener('DOMContentLoaded', function () {
         photoGrid.appendChild(photoItem);
     });
 });
-            // Open modal function
-            function openModal(url) {
-                const modal = document.getElementById('modal');
-                const modalImage = document.getElementById('modalImage');
-                modal.style.display = 'block';
-                modalImage.src = url;
-            }
-        
-            // Close modal function
-            function closeModal() {
-                const modal = document.getElementById('modal');
-                modal.style.display = 'none';
-            }
+// Open modal function
+function openModal(url) {
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modalImage');
+    modal.style.display = 'block';
+    modalImage.src = url;
+}
+
+// Close modal function
+function closeModal() {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'none';
+}
             
