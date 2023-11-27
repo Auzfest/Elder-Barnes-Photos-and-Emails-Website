@@ -1,3 +1,4 @@
+/*CSS for all pages*/
 body {
     background-color: white; 
     font-family: cursive, Helvetica, sans-serif;
@@ -37,10 +38,27 @@ nav a:hover {
     color: white;
 }
 
+p {
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+/*index page CSS*/
 .mainPicsGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /*gap: 16px;*/
 }
 
 .mainPicsItem {
@@ -58,15 +76,16 @@ nav a:hover {
     display: block;
 }
 
-p {
+#countdown, #countup {
+    font-size: 2em;
+    color: #333;
     text-align: center;
-    background-color: gray;
-    padding: 10px;
-    margin: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px black;
-}
-/*emails page css*/
+    border: 5px solid #333;
+
+    margin-top: 20px;
+  }
+
+/*emails page CSS*/
 #csv-container {
     display: flex;
     flex-direction: column;
@@ -100,7 +119,7 @@ button {
 
 
 
-/*Pictures page css*/
+/*Pictures page CSS*/
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

@@ -42,7 +42,18 @@ document.addEventListener('DOMContentLoaded', function () {
         'images/bobo3.jpeg',
         'images/bobo4.jpeg',
         'images/bobo5.jpg',
-        'images/bobo6.jpg',
+        'images/mine1.jpg',
+        'images/mine2.jpg',
+        'images/mine3.jpg',
+        'images/mine4.jpg',
+        'images/mine5.jpg',
+        'images/mine6.jpeg',
+        'images/verdad1.jpg',
+        'images/verdad2.jpg',
+        'images/verdad3.jpg',
+        'images/verdad4.jpg',
+        'images/verdad5.jpg',
+
 
 
         // Add more photo URLs as needed
